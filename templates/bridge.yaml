@@ -26,7 +26,11 @@ release:
     prefix: ocds-xxxxxx
 
 
-path: ${options['path_for_release']}
+path_for_release: ${options['path_for_release']}
+path_for_release_package: ${options['path_for_release_pack']}
+path_for_release_package_btw_dates: ${options['path_for_dates']}
+path_for_record: ${options['path_for_record']}
+path_for_record_package: ${options['path_for_record_pack']}
 
 logging:
     version: 1
